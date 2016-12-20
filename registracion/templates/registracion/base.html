@@ -1,0 +1,33 @@
+{% load staticfiles %} 
+
+<!DOCTYPE html>
+    <html>
+        <head>
+        	<link href="{% static "bootstrap/css/bootstrap.min.css" %}" rel="stylesheet">
+            <link href="{% static "bootstrap/css/local.min.css" %}" rel="stylesheet">        
+        
+            <title>Django Girls blog</title>
+        </head>
+        <body>
+            <div class="page-header">
+                <h1><a href="">Proyecto 2016- Registracion</a></h1>
+            </div>
+
+            <div class="content container">
+                <div class="row">
+                    <dic class="col-md-8">
+                    {%for}
+                    
+                </div>
+                <p>published: 14.06.2014, 12:14</p>
+                <h2><a href="">My first post</a></h2>
+                <p>Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
+            </div>
+
+            <div>
+                <p>published: 14.06.2014, 12:14</p>
+                <h2><a href="">My second post</a></h2>
+                <p>Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut f.</p>
+            </div>
+        </body>
+    </html>
