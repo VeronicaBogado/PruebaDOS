@@ -20,7 +20,7 @@ body{
 	height: 100px;
 	border: 1px solid #000000;
 	width: 84px;
-	background-image: url('../img/utnLogo.png');
+	background-image: url('img/utnLogo.png');
 }
 
 #menuIzq{
@@ -49,4 +49,4 @@ body{
 	margin: 10px;
 	background: #EAFAF1;
 	
-}
+} 
